@@ -339,3 +339,211 @@ small {
   content: "|";
   margin: 0 0 0 15px;
 }
+
+@media screen and (min-width: 481px) {
+  .menuIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* header-section */
+  header {
+    height: fit-content;
+    background-color: #3400ff;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4%;
+  }
+
+  .logo {
+    height: 35px;
+    margin: 0;
+  }
+
+  .menuIcon {
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .header-text {
+    float: none;
+    margin: 4% 4% 0 4%;
+  }
+
+  .header-text h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .header-text p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .header-image {
+    float: none;
+    height: 360px;
+    margin-top: 4%;
+  }
+
+  .companies {
+    margin: 1% 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .company-items {
+    margin: 0;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Righteous", sans-serif;
+    color: #1f1f1f;
+  }
+
+  /* API-section */
+  .api {
+    margin: 0 4%;
+  }
+
+  .api-heading {
+    font-size: 30px;
+  }
+
+  .cards {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .cards:last-child::after {
+    display: none;
+  }
+
+  /* blog-section */
+  .blog-heading {
+    margin: 3% 4% 0 4%;
+  }
+
+  .blog-heading > h1 {
+    font-size: 30px;
+  }
+
+  .blog-cards {
+    margin: 3% 4% 0 4%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .blog-card {
+    width: fit-content;
+    display: flex;
+  }
+
+  .blog-content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: fit-content;
+  }
+
+  .blog-content h3 {
+    font-size: 15px;
+  }
+
+  .blog-bottom {
+    display: none;
+  }
+
+  .blog-author {
+    display: none;
+  }
+
+  /* FAQ-section */
+  .faq-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .faq-content {
+    margin: 0 4%;
+    position: relative;
+    left: 0;
+  }
+
+  .faq-content h2 {
+    text-align: center;
+    margin: 5% 0 2% 0;
+    font-size: 30px;
+  }
+
+  .faq-content > :nth-child(2) {
+    text-align: center;
+  }
+
+  .faq-content > :nth-child(3) {
+    text-align: center;
+  }
+
+  .faq-content button {
+    position: relative;
+    left: 35%;
+  }
+
+  .faq-image > img {
+    margin: 2% 3%;
+    height: 360px;
+    width: 94%;
+    object-fit: cover;
+  }
+
+  /* download-section */
+  .download-section {
+    flex-direction: column;
+  }
+
+  .download-email {
+    margin-top: 4%;
+    width: 390px;
+  }
+
+  .download-email > form > input {
+    width: 50%;
+  }
+
+  /* footer-section */
+  .footer-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .footer-left {
+    margin: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-left > .list > .list-items {
+    margin: 0 5px 0 0;
+  }
+
+  .footer-section > .footer-right {
+    margin: 2% 4%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

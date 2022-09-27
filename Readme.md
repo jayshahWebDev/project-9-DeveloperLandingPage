@@ -1,6 +1,6 @@
 # Hey, there everyone `Jay Shah` here
 
-## [Live Project Demo](https://developer-landing-page-sooty.vercel.app/)
+## [Live Project Demo](https://project-9-developerlanding-page.netlify.app/)
 
 <br>
 
